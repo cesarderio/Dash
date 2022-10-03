@@ -194,7 +194,7 @@ footer{
     font-size: 1.4rem;
   }
   main{
-    height: 75vh;
+    height: 78vh;
   }
   body{
     height: 100vh;
@@ -211,8 +211,8 @@ footer{
     margin-bottom: 0px;
     padding-bottom: 0px;
     border-bottom: 0px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   footer{
   
