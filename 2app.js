@@ -1,14 +1,7 @@
 'use strict';
 
 // Search Bar
-/*
-let searchBox = document.getElementById(searchBox);
-let googleIcon = document.getElementById(googleIcon);
 
-googleIcon.onclick = function(){
-  searchBox.classList.toggle('active');
-};
-*/
 
 
 
@@ -38,7 +31,7 @@ function showTime(){
   hour = hour % 12 || 12;
 
   // Output Time
-  time.innerHTML = `${hour}<span>:</span>${addZero(minutes)}<span>:</span>${addZero(seconds)} ${showAmPm ? amPm : ''}`;
+  time.innerHTML = `${hour}<span>:</span>${addZero(minutes)}${showAmPm ? amPm : ''}`;
 
   setTimeout(showTime, 1000);
 }
@@ -65,7 +58,6 @@ function setBGGreet(){
     //evening
     document.body.style.backgroundImage = 'url(\'./img2/evening.jpg\')';
     greeting.textContent = 'Good Evening';
-    document.body.style.color = 'white';
   }
 
 }
