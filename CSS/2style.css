@@ -169,7 +169,7 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 80vh;
+    height: 60vh;
   }
   #time{
     font-size: 3rem;
@@ -192,15 +192,17 @@ footer{
     opacity: 0.7;
     font-size: 1.4rem;
   }
+  main{
+    height: 75vh;
+  }
   body{
-    
+    height: 100vh;
     color: white;
     font-family: 'Comfortaa', cursive;
     text-shadow: black 0px 0px 2px;
     background-position: center;
     background-color: rgba(3, 160, 160, 0.443);
     background-size: cover;
-    overflow: hidden;
     background-repeat: no-repeat;
     margin-top: 0px;
     padding-top: 0px;
@@ -208,6 +210,8 @@ footer{
     margin-bottom: 0px;
     padding-bottom: 0px;
     border-bottom: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   footer{
   
